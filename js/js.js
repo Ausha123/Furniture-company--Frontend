@@ -129,3 +129,16 @@ ProductHomeImg[2].onclick = function () {
     SmallImg[0].src = ProductHomeImg[2].src;
     SmallImg[1].src = '';
 }
+/*---------------------------------About Us-----------------------------------*/
+let AbutUs = document.getElementById('aboutUs');
+AbutUs.style.display='none';
+
+$('#btnAboutUs').click(function (){
+    HomeBody.style.display='none';
+    Footer.style.display='block';
+    BedCategory.style.display='none';
+    ProductInfo.style.display='none';
+    AbutUs.style.display='block';
+    ContactUs.style.display='none';
+});
+
