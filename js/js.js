@@ -91,4 +91,41 @@ ProductHomeImg[2].onclick = function () {
     SmallImg[0].src = ProductHomeImg[2].src;
     SmallImg[1].src = '';
 }
+/*-------------------------------Product Info Page---------------------------*/
 
+var ProductImg =document.getElementById("ProductImg");
+var SmallImg = document.getElementsByClassName("small-img");
+var ProductHomeImg = document.getElementsByClassName("ProductHomeImg");
+
+SmallImg[0].onclick = function () {
+    ProductImg.src = SmallImg[0].src;
+}
+SmallImg[1].onclick = function () {
+    ProductImg.src = SmallImg[1].src;
+}
+SmallImg[2].onclick = function () {
+    ProductImg.src = SmallImg[2].src;
+}
+SmallImg[3].onclick = function () {
+    ProductImg.src = SmallImg[3].src;
+}
+
+ProductHomeImg[0].onclick = function () {
+    ProductImg.src = ProductHomeImg[0].src;
+    SmallImg[0].src = ProductHomeImg[0].src;
+    SmallImg[1].src =  'assets/img/cart 1.1.jpg';
+    SmallImg[2].src =  ProductHomeImg[0].src;
+    SmallImg[3].src =  'assets/img/cart 1.1.jpg';
+
+}
+ProductHomeImg[1].onclick = function () {
+    ProductImg.src = ProductHomeImg[1].src;
+    SmallImg[0].src = ProductHomeImg[1].src;
+    SmallImg[1].src = '';
+    console.log("AWA")
+}
+ProductHomeImg[2].onclick = function () {
+    ProductImg.src = ProductHomeImg[2].src;
+    SmallImg[0].src = ProductHomeImg[2].src;
+    SmallImg[1].src = '';
+}
