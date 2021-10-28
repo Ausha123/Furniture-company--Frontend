@@ -366,3 +366,46 @@ h4{
 .about{
     text-align: initial;
 }
+
+/*-------------------------------------Contact Us-------------------------------------------*/
+
+.contactUsMap{
+    width: 639px;
+    margin-left: -114px;
+}
+.form-controller{
+    width: 100%;
+    height: 384px;
+    border:1px solid #777777;
+    margin-top: 29px;
+}
+.aria{
+    padding-bottom: 16px;
+}
+.txtFiled{
+    width: 90%;
+    height: 37px;
+}
+.txtLabel{
+    margin-right: 213px;
+}
+.msgAria .txtFiled{
+    height: 75px;
+}
+.btnSubmit{
+    margin-right: 216px;
+    border: none;
+    background-color: cadetblue;
+    font-size: 18px;
+    cursor: pointer;
+}
+.googleMap{
+    width:639px;
+    height:410px;
+    border:0;
+    allowfullscreen:"";
+    loading:"lazy";
+}
+#contactUsForm{
+    margin-top: -26px;
+}

@@ -142,3 +142,17 @@ $('#btnAboutUs').click(function (){
     ContactUs.style.display='none';
 });
 
+/*---------------------------------Contact Us-------------------------------------*/
+
+let ContactUs = document.getElementById('contactUs');
+ContactUs.style.display='none';
+
+$('#btnContactUs').click(function (){
+    HomeBody.style.display='none';
+    Footer.style.display='block';
+    BedCategory.style.display='none';
+    ProductInfo.style.display='none';
+    AbutUs.style.display='none';
+    ContactUs.style.display='block';
+});
+
